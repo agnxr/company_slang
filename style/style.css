@@ -1,0 +1,59 @@
+
+* {
+font-family: 'Text Me One', sans-serif;
+}
+
+body {
+  background-color: #EDC9CA;
+}
+
+.container {
+  width: 1200px;
+  background-image: url("../images/work.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #FFF2F9;
+  height: 800px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-size: 55px;
+  position: relative;
+}
+
+h3, form, #meaning {
+
+  margin-left: 150px;
+  font-size: 30px;
+}
+
+form {
+  margin-left: 400px;
+}
+
+#meaning {
+  border: 1px solid white;
+  width: 530px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+#meaning p {
+  margin-left: 20px;
+}
+
+.form-control {
+
+  background-color: #FFF2F9;
+  font-size: 30px;
+}
+
+
+h1, h3, #meaning {
+  color: white;
+}
