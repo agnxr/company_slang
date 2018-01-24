@@ -1,6 +1,8 @@
 
 * {
 font-family: 'Text Me One', sans-serif;
+margin: 0;
+padding: 0;
 }
 
 body {
@@ -8,49 +10,53 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100vw;
   background-image: url("../images/work.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid #FFF2F9;
-  height: 800px;
+  height: 100vh;
   margin: 0 auto;
 }
 
 
 h1 {
-  margin-top: 100px;
-  margin-left: 150px;
+  margin-top: 10%;
+  margin-left: 30%;
   font-size: 55px;
   position: relative;
 }
 
 h3, form, #meaning {
 
-  margin-left: 150px;
+  margin-left: 30%;
   font-size: 30px;
 }
 
 form {
-  margin-left: 400px;
+  margin-left: 30%;
+  margin-top: 2%;
+	
 }
 
 #meaning {
   border: 1px solid white;
-  width: 530px;
+  width: 30%;
   height: 100px;
   margin-top: 30px;
-  margin-left: 250px;
+  margin-left: 30%;
 }
 
 #meaning p {
   margin-left: 20px;
+  margin-top: 5%;
 }
 
 .form-control {
 
   background-color: #FFF2F9;
   font-size: 30px;
+  width: 40%;
 }
 
 
